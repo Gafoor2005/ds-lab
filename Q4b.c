@@ -74,7 +74,7 @@ void randomInsert(){
     else{
         struct node *temp=head;
         int i=0;
-        for (int i = 0; i < n-1; i++)
+        for (i = 0; i < n-1; i++)
         {
             if(temp->next == head){
                 printf("enter a valid index. max index is %d\n",i+1);
